@@ -429,7 +429,8 @@ public class MainFormController implements Initializable {
         btnPrint.setPadding(new Insets(10, 10, 10, 10));
         btnPrint.setOnAction((ActionEvent event) -> {
             System.out.println(event.getSource().toString() + " is clicked");
-            
+            //TODO print the ohdah order
+            System.out.println("TODO print the Ohdah document");
         });
         
         hBox.getChildren().addAll(btnCancel, btnSave, btnPrint);
